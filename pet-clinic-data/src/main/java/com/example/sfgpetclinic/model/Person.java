@@ -1,7 +1,8 @@
 package com.example.sfgpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 	
+	private static final long serialVersionUID = -8089029925859879298L;
 	private String firstName;
 	private String lastName;
 	
