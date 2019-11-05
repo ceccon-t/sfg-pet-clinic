@@ -1,9 +1,9 @@
 package com.example.sfgpetclinic.service.map;
 
 import com.example.sfgpetclinic.model.Vet;
-import com.example.sfgpetclinic.service.CrudService;
+import com.example.sfgpetclinic.service.VetService;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 	@Override
 	public Vet save(Vet object) {
